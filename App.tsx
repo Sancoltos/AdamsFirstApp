@@ -12,13 +12,13 @@ function App() {
 return (
 <SafeAreaView style={styles.container}>
 <StatusBar barStyle="dark-content" />
-<View style={styles.header}>
-        {/* Bird*/}
+<View style={styles.header}> 
+        {/* Bird*/} {/*this is where my bird icon is shown and renders in the header above the title*/}
         <Image
-          source={require('./assets/icon.png')}
-          style={{ width: 80, height: 80 }}
+          source={require('./assets/icon.png')} //file path
+          style={{ width: 80, height: 80 }} //sizing for the icon
         />
-<Text style={styles.title}>Welcome to Adams Test App</Text>
+<Text style={styles.title}>Welcome to Adams Test App</Text>{/* all the writing for the app */} 
 <Text style={styles.subtitle}>Cross-Platform Mobile Development</Text>
 </View>
 <View style={styles.content}>
@@ -37,7 +37,7 @@ return (
 </SafeAreaView>
 );
 }
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ //these are the styles for the containers and text I changed the color on some too add flair
 container: {
 flex: 1,
 backgroundColor: '#de88e8ff',
