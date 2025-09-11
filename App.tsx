@@ -32,6 +32,11 @@ return (
 <Text style={styles.goal}>• Master state management with Redux</Text>
 <Text style={styles.goal}>• Make fun apps for me and my friends</Text>
 <Text style={styles.goal}>• Be true to myself to learn more</Text>
+<Text style={styles.goal}>• Finally made and autohotkey to keep this thing on top</Text>
+</View>
+<View style={styles.extraStuff}>
+<Text style={styles.sectionTitle}>Making an extra section:</Text>
+<Text style={styles.extraStuff}>• Look at this</Text>
 </View>
 </View>
 </SafeAreaView>
@@ -80,7 +85,19 @@ marginTop: 30,
 padding: 15,
 backgroundColor: 'white',
 borderRadius: 10,
-elevation: 2,
+elevation: 5,
+shadowColor: '#000',
+shadowOffset: { width: 0, height: 2 },
+shadowOpacity: 0.1,
+shadowRadius: 2,
+},
+
+extraStuff: {
+marginTop: 30,
+padding: 15,
+backgroundColor: 'white',
+borderRadius: 10,
+elevation: 3,
 shadowColor: '#000',
 shadowOffset: { width: 0, height: 2 },
 shadowOpacity: 0.1,
