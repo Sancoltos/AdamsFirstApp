@@ -1,8 +1,8 @@
 # Project: AdamsFirstApp
 
 AdamsFirstApp.
-├── tests/ 
-├── .bundle/ 
+├── tests/\ 
+├── .bundle/\
 ├── android/
 ├── assets/
 ├── configs/
@@ -26,4 +26,5 @@ AdamsFirstApp.
 ├── package.json
 ├── project-structure.md
 ├── tsconfig.json
+
 └── README.md
