@@ -1,7 +1,7 @@
 # Project: AdamsFirstApp
 
 AdamsFirstApp.\
-├── tests/\ 
+├── tests/ \ 
 ├── .bundle/\
 ├── android/\
 ├── assets/\
@@ -28,4 +28,5 @@ AdamsFirstApp.\
 ├── tsconfig.json\
 
 └── README.md
+
 
