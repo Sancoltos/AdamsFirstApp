@@ -1,4 +1,4 @@
-package com.environmenttest
+package com.adamsfirstapp
 
 import android.app.Application
 import com.facebook.react.PackageList
